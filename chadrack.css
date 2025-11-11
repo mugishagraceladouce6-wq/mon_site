@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0em;
+    padding: 0em;
+}
+body{
+    font-family:enter 0;
+    background-color: cyan;
+}
+header{
+    background: whitesmoke;
+    color: rgb(39, 39, 253);
+    padding-bottom:0.5em;
+    margin-bottom: 1em ;
+}
+.marquee behavior{
+    font-size:xx-large;
+    width: 75%;
+    zoom: 85%;
+}
+.logo img,.logo h3{
+    display: inline;
+}
+.logo img{
+    height: 7vh;
+    border-radius: 1em;
+    margin-top: 0.3em;
+    margin-right: 0.4em;
+}
+.Menu{
+   
+    padding: 10px 20px;
+    background-color: rgb(102, 118, 133);
+    width: 97%   
+}
+
+.entete P{
+    color: aquamarine;
+    font-size: larger;
+    font-style: oblique; 
+    padding-left: 5%;  
+}
+.Menu > ul{
+   display: flex;
+   list-style: none;
+   justify-content: space-around;
+   justify-content: right;
+
+}
+.Menu > ul a{
+    display: block;
+    padding: 10px 20px;
+    border-radius: 1em;
+    text-decoration: none;
+}
+.sous-nav{
+    list-style:none;
+    display: none;
+    background-color:rgb(135, 177, 135);
+    border-style:inset;
+}
+.has-sous-nav:hover .sous-nav{
+    display: block;
+}
+nav a:hover{
+color: white;
+background-color: black;
+border-radius: 5rem;
+}
+a{
+    text-decoration: none;
+}
+
+
+.A{
+    background-color: rgb(174, 194, 162);
+    border-radius: 10px;
+    width: 80%;
+    margin: 0.5em;
+    border-radius: 2rem;
+}
+.B{
+    background-color: rgb(174, 194, 162);
+    border-radius: 10px;
+    width: 80%;
+    margin: 0.5em;
+    border-radius: 2rem;
+}
+.C{
+    border-radius: 10px;
+    width: 80px;
+    background-color:  rgb(174, 194, 162);
+    margin: 0.5em;
+    border-radius: 2rem;
+}
+.D{
+    background-color: rgb(174, 194, 162);
+    border-radius: 10px;
+    width: 80px;
+    border-radius: 2rem;
+    margin: 0.5em;
+}
+.E{
+    background-color: rgb(174, 194, 162);
+    border-radius: 10px;
+    width: 80px;
+    margin: 0.5em;
+    border-radius: 2rem;
+}
+
+.text{
+    display: flex; 
+    border-radius: 2rem; 
+}
+.text article{
+    margin: 1em;
+    padding: 2em;
+    text-align:justify;
+    width: 100%;
+    padding-bottom: 0em;
+}
+#sect1{
+    display: flex;
+    justify-content:space-around;
+
+}
+
+#sect1 img{
+    width: 80%;
+    padding-left: 3em;
+    border-radius: 2rem;
+}
+#sect1 article{
+    margin: 1em;
+    padding: 2em;
+    text-align:justify;
+    width: 80%;
+    padding-top: 0.5em;
+    padding-bottom: 0em;
+    border-radius: 2rem;
+}
+#sect1 .p1 img{
+    height: 70%;
+    border-radius: 2rem;
+}
+#sect1 .p1 p{
+color:white;
+margin: 0.5em;
+padding-left: 5.5em;
+border-radius: 2rem;
+}
+#sect1 .p2 p{
+    color: white;
+    margin: 0.5em;
+    padding-left: 5.5em;
+    border-radius: 2rem;
+}
+
+#sect2{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-left: 3em;
+    border-radius: 2rem;
+
+}
+#sect2 img{
+width: 70%;
+margin: 0.5em;
+}
+#sect2 article{
+    margin: 0em;
+    padding: 0em;
+    text-align:justify;
+    width: 550px
+ }
+
+#sect2 .p3 p{
+    color: white;
+    padding-left: 5.5em;
+}
+#sect2 .p3 img{
+    width: 85%;
+}
+#sect2 .p4 p{
+    color: white;
+    padding-left: 5.5em;
+    padding-top: 2em;
+}
+#sect2 .p4 img{
+    height: 70%;
+ }
+
+#sect3{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 2em;
+}
+#sect3 img{
+    width: 80%;
+    padding-left: 3em;
+    margin: 0.5em;
+}
+#sect3 article{
+    text-align:justify;
+    width: 90%;
+    padding-left: 10%;
+     padding-bottom: 2em;
+}
+#sect3 .p6 article{
+    width: 75%;
+    padding-left: 20%;
+}
+#sect3 .p6 img{
+    height: 80%;
+    padding-left: 80px;
+}
+#sect3 .p5 p{
+color: white;
+padding-left: 40%;
+}
+#sect3 .p5 img{
+    width:  580px;
+    padding-left: 50px;
+    padding-right:;
+}
+#sect3 .p6 p{
+    color: white;
+    padding-left: 40%;
+    padding-top: 0em;
+}
+
+
+footer{
+    text-align: right;
+    padding: 1%;
+    background-color:rgb(67, 97, 72);
+    color: white;
+
+}
+footer a{
+    display: inline;
+    margin-left: 5em;
+    color: tomato;
+   
+}
+footer p{
+    display: inline;
+    margin-left: 5em;
+    color: rgb(151, 248, 127);
+}
+
+.login{
+    height: 20vh;
+    padding: 5rem;
+    padding-left: 40rem;
+}
+form{
+    border: 2px solid purple;
+    width:50vw;
+    padding: 2em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:lighter;
+}
+
